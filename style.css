@@ -1185,6 +1185,7 @@ a:hover, a:active {
     left: 0;
     bottom: 0;
     width: 100%;
+    opacity: 20%;
 }
 
 @media screen and (min-width: 992px) {
