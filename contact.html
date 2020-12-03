@@ -39,11 +39,11 @@
                     </div><!-- .hamburger-menu -->
 
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="index.html">Start</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <!-- <li><a href="blog.html">Blog</a></li> -->
-                        <li><a href="about.html">About</a></li>
-                        <li class="current-menu-item"><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">O mnie</a></li>
+                        <li class="current-menu-item"><a href="contact.html">Kontakt</a></li>
                     </ul>
 
           
@@ -59,22 +59,36 @@
                     <img src="images/monika_profilowe.jpg" alt="">
                 </figure>
             </div><!-- .blog-item -->
+            <div class="col-12 col-xl-6" style="margin: auto; padding: 10px;">
 
-            <div class="col-12 col-xl-6">
+                <h3 style="text-align: center;">Zapraszam Cię do kontaktu ze mną za pomocą formularza:</h3>
                 <form action="https://formspree.io/f/xqkgealq" method="POST">
-                    <label>
-                        Twój email:
-                        <input type="text" name="_replyto">
-                    </label>
-                    <label>
-                        Twoja wiadomość:
-                        <textarea name="message"></textarea>
-                    </label>
+                    <div class="row" style="margin-bottom: 5px; margin-top: 25px;">
+                        <div class="col-4 cols-xl-2" style="text-align: center;">
+                            <label>Twój email:</label>
+                        </div>
+                        <div class="col-8 col-xl-6">
+                            <input type="text" name="_replyto" required="true" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 cols-xl-2" style="text-align: center;">
+                            <label ><br/>Tekst wiadomości:</label>
+                        </div>
+                        <div class="col-8 col-xl-6">
+                            <textarea name="message" rows="4" style="width: 100%;">Cześć, jestem zainteresowana sesją zdjęciową, proszę o kontakt.</textarea>
+                        </div>
+                    </div>
 
                     <!-- your other form fields go here -->
-
-                    <button type="submit">Wyślij</button>
+                    <div class="row">
+                        <div class="col-12 col-xl-8" style="text-align: right;">
+                            <button type="submit" class="sendButton">Wyślij</button>
+                        </div>
+                    </div>
                 </form>
+                </br>
+                <h6 style="text-align: center;">Lub po prostu bepośrednio napisz do mnie maila na monika.rozpedzik@gmail.com</h6>
             </div><!-- .single-post -->
         </div><!-- .content-area -->
     </div><!-- .row -->
@@ -82,12 +96,7 @@
     <footer class="site-footer">
         <div class="row align-items-center">
             <div class="col-12 col-lg-4 order-3 order-lg-1">
-                <div class="footer-copyright">
-                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-                </div><!-- .footer-branding -->
+                
             </div><!-- .col-xl-4 -->
 
             <div class="col-12 col-lg-4 order-1 order-lg-2 d-md-none d-lg-block">
@@ -98,7 +107,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 </nav><!-- .footer-navigation -->
             </div><!-- .col-xl-4 -->
 
-            <div class="col-12 col-lg-4 order-2 order-lg-3">
+            <div class="col-12 col-lg-12 order-2 order-lg-3">
                 <div class="footer-social">
                     <ul>
                         <li><a href="https://www.facebook.com/MonikaRozpedzikPhotography"><i class="fa fa-facebook"></i></a></li>
@@ -107,6 +116,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 </div><!-- .footer-social -->
             </div><!-- .col-xl-4 -->
         </div><!-- .row -->
+        <br/>
+        <div class="row align-items-center">
+            <div class="footer-copyright">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+            </div><!-- .footer-branding -->
+        </div>
+         
     </footer><!-- .site-footer -->
 </div><!-- .container-fluid -->
 
