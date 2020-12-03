@@ -1181,6 +1181,10 @@ a:hover, a:active {
     color: #a6a6a6;
     font-size: 0.875rem;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -1229,6 +1233,10 @@ a:hover, a:active {
     align-items: center;
     padding: 0;
     margin: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-social ul li {
@@ -1254,6 +1262,29 @@ a:hover, a:active {
 
 .footer-social ul li a:hover {
     color: #30df7a;
+}
+
+h6 a:hover {
+    color: none;
+}
+
+h6 a {
+    color: black;
+    text-decoration: solid;
+}
+
+h6 a:visited {
+    color: none;
+}
+
+h6 a:hover, a:focus, a:active {
+    color: none
+}
+
+h6 a:hover, a:active {
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* @media screen and (min-width: 1200px) {
