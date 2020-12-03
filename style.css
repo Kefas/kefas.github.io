@@ -1181,7 +1181,6 @@ a:hover, a:active {
     color: #a6a6a6;
     font-size: 0.875rem;
     text-align: center;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -1192,6 +1191,8 @@ a:hover, a:active {
     .footer-copyright p {
         margin: 0;
         text-align: left;
+        position: fixed;
+        bottom: 0;
     }
 }
 
@@ -1234,11 +1235,19 @@ a:hover, a:active {
     align-items: center;
     padding: 0;
     margin: 10px 0;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
+
+@media screen and (min-width: 992px) {
+    .footer-social ul {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+
 
 .footer-social ul li {
     display: block;
