@@ -1341,3 +1341,15 @@ h6 a:hover, a:active {
         width: auto;
     }
 }
+
+.about-image {
+
+}
+
+.about-content {
+    overflow-y: scroll;
+}
+
+.about-div {
+    overflow-y: hidden;
+}
