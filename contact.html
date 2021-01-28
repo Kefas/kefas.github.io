@@ -54,14 +54,14 @@
 
     <div class="row">
         <div class="content-area single-post flex">
-            <div class="col-12 col-xl-6">
+            <div id="contact-photo" class="col-12 col-xl-6">
                 <figure class="featured-img">
                     <img src="images/monika_profilowe.jpg" alt="">
                 </figure>
             </div><!-- .blog-item -->
             <div class="col-12 col-xl-6" style="margin: auto; padding: 10px;">
 
-                <h3 style="text-align: center;">Zapraszam Cię do kontaktu ze mną za pomocą formularza:</h3>
+                <!-- <h3 style="text-align: center;">Zapraszam Cię do kontaktu ze mną za pomocą formularza:</h3>
                 <form action="https://formspree.io/f/xqkgealq" method="POST" style="padding: 10px;">
                     <div class="row" style="margin-bottom: 5px; margin-top: 25px;">
                         <div class="col-4 cols-xl-2" style="text-align: center;">
@@ -80,15 +80,50 @@
                         </div>
                     </div>
 
-                    <!-- your other form fields go here -->
                     <div class="row">
                         <div class="col-12 col-xl-8" style="text-align: right;">
                             <button type="submit" class="sendButton">Wyślij</button>
                         </div>
                     </div>
-                </form>
+                </form> -->
+
+                <div class="bg-contact2">
+                    <div class="container-contact2">
+                        <div class="wrap-contact2">
+                            <form action="https://formspree.io/f/xqkgealq" method="POST" class="contact2-form validate-form">
+                                <span class="contact2-form-title">
+                                    Kontakt
+                                </span>
+            
+                                <div class="wrap-input2 validate-input" data-validate="Name is required">
+                                    <input class="input2" type="text" name="name">
+                                    <span class="focus-input2" data-placeholder="IMIĘ"></span>
+                                </div>
+            
+                                <div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                                    <input class="input2" type="text" name="_replyto">
+                                    <span class="focus-input2" data-placeholder="EMAIL"></span>
+                                </div>
+            
+                                <div class="wrap-input2 validate-input" data-validate = "Message is required">
+                                    <textarea class="input2" name="message"></textarea>
+                                    <span class="focus-input2" data-placeholder="WIADOMOŚĆ"></span>
+                                </div>
+            
+                                <div class="container-contact2-form-btn">
+                                    <div class="wrap-contact2-form-btn">
+                                        <div class="contact2-form-bgbtn"></div>
+                                        <button class="contact2-form-btn">
+                                           Wyślij wiadomość
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 </br>
-                <h6 style="text-align: center;">Lub po prostu bepośrednio napisz do mnie maila na <a href="mailto:monika.rozpedzik@gmail.com">monika.rozpedzik@gmail.com</a></h6>
+                <h4 style="text-align: center;">Jeśli wolisz skontaktować się ze mną bepośrednio za pomocą maila napisz do mnie na adres:</br> <a style="font-size: 24px;" href="mailto:monika.rozpedzik@gmail.com">monika.rozpedzik@gmail.com</a></h4>
             </div><!-- .single-post -->
         </div><!-- .content-area -->
     </div><!-- .row -->
