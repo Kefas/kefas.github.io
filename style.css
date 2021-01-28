@@ -846,6 +846,7 @@ a:hover, a:active {
 @media screen and (min-width: 768px ){
     .hero-content h1 {
         font-size: 7.5rem;
+        margin-top: 20%;
     }
 
     .hero-content-main h1 {
