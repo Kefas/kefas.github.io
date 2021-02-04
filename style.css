@@ -404,7 +404,7 @@ a {
 }
 
 a:visited {
-    color: purple;
+    color: none;
 }
 
 a:hover, a:focus, a:active {
@@ -1163,6 +1163,66 @@ a:hover, a:active {
     }
 }
 
+
+.portofolio-cat-item {
+    background-size: cover;
+    height: calc(50vh);
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+.portofolio-cat-item h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 55%;
+    padding-bottom: 10%;
+    font-family: palatino;
+    color: #fff;
+    text-align: center;
+    margin-top: 115%;
+}
+
+@media (max-width: 1600px) {
+    .portofolio-cat-item h1 {
+        margin-top: 150%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .portofolio-cat-item h1 {
+        margin-top: 130%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .portofolio-cat-item h1 {
+        margin-top: 150%;
+    }
+}
+
+@media (max-width: 600px) {
+    .portofolio-cat-item h1 {
+        margin-top: 90%;
+    }
+}
+
+.back-button a{
+    /* background: none; */
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* font-family: palatino; */
+    /* color: #a6a6a6; */
+}
+
+/* .back-button a:hover {
+    color: #fff;
+} */
+/* .back-button:hover {
+    
+    cursor: pointer;
+} */
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1354,7 +1414,6 @@ h6 a:hover, a:active {
 .about-div {
     overflow-y: hidden;
 }
-
 
 
 
