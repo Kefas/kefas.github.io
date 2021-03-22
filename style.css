@@ -1420,6 +1420,7 @@ h6 a:hover, a:active {
 
 .about-content {
     overflow-y: scroll;
+    height: 100%;
 }
 
 .about-div {
